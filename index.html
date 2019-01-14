@@ -12,13 +12,11 @@
 	<body>
 		<header class="main-header">
 			<nav class="main-navigation container">
+				<a class="main-header-logo">
+					<img src="img/logo.png" title="Sensorama - клубы виртулаьной реальности" width="50" height="50" alt="Sensorama">
+				</a>
 				<ul class="site-navigation">
-					<li>
-						<a class="main-header-logo">
-							<img src="#" alt="logo">
-						</a>
-					</li>
-					<li><a href="#">Главная</a></li>
+					<li><a class="site-navigation-active" href="#">Главная</a></li>
 					<li><a href="#">Игры</a></li>
 					<li><a href="#">Клубы</a></li>
 					<li><a href="#">О нас</a></li>
@@ -31,7 +29,7 @@
 		
 		<main>
 			<section class="container main-search">
-				<h1>Sensorama - поиск клубов виртуальной реальности в Москве</h1>
+				<h1>Sensorama<br>Поиск клубов виртуальной реальности в Москве</h1>
 				<form class="filter">
 					<fieldset class="platform">
 						<select class="filter-form filter-form-style">
@@ -59,35 +57,109 @@
 			<section class="container best-games">
 				<h3>Лучшие игры</h3>
 				<div class="game-list">
-					<div class="list-item">
-						<img src="img/batman-arkham-vr.png" width="261" height="150" alt="Batman: Arkham VR">
-						<div class="game-info">
-							<a href="game.html">
-							<p class="club-title">
-								Batman: Arkham VR
-							</p>
-							</a>
-							<p>
-								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
-								</span>
-							</p>
-							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
-							<a href="#">HTC Vive</a>
-							<a href="#">PS VR</a>
-						</div>
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/batman-arkham-vr.png');">
+							</div>
+							<div class="game-top">
+								<img src="img/12.png" title="Для детей старше 12 лет" alt="">
+							</div>
+							<div class="game-info">
+								<div class="profile-name">Batman: Arkham VR</div>
+								<div class="profile-row">2017</div>
+								<div class="profile-row">Приключения, триллер</div>
+								<div class="game-platform">
+									<ul>
+										<li><img src="img/ps4.png" height="25px" title="Поддерживается на системе PS4 VR" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/skyrim.png');">
+							</div>
+							<div class="game-top">
+								<img src="img/12.png" title="Для детей старше 12 лет" alt="">
+							</div>
+							<div class="game-info">
+								<div class="profile-name">Skyrim VR</div>
+								<div class="profile-row">2016</div>
+								<div class="profile-row">Фэнтези</div>
+								<div class="game-platform">
+									<ul>
+										<li><img src="img/htc.png" height="25px" title="Поддерживается на системе HTC Vive" alt=""></li>
+										<li><img src="img/ps4.png" height="25px" title="Поддерживается на системе PS4 VR" alt=""></li>
+										<li><img src="img/oculus.png" height="25px" title="Поддерживается на системе Oculus Rift" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/beat-saber.png');">
+							</div>
+							<div class="game-top">
+								<img src="img/12.png" title="Для детей старше 12 лет" alt="">
+							</div>
+							<div class="game-info">
+								<div class="profile-name">Beat Saber</div>
+								<div class="profile-row">2015</div>
+								<div class="profile-row">Аркада</div>
+								<div class="game-platform">
+									<ul>
+										<li><img src="img/htc.png" height="25px" title="Поддерживается на системе HTC Vive" alt=""></li>
+										<li><img src="img/oculus.png" height="25px" title="Поддерживается на системе Oculus Rift" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/the-climb.png');">
+							</div>
+							<div class="game-top">
+								<img src="img/12.png" title="Для детей старше 12 лет" alt="">
+							</div>
+							<div class="game-info">
+								<div class="profile-name">The Climb</div>
+								<div class="profile-row">2015</div>
+								<div class="profile-row">Приключения</div>
+								<div class="game-platform">
+									<ul>
+										<li><img src="img/htc.png" height="25px" title="Поддерживается на системе HTC Vive" alt=""></li>
+										<li><img src="img/oculus.png" height="25px" title="Поддерживается на системе Oculus Rift" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!--<div class="list-item">
+						<a class="test" href="game.html">
+							<img class="list-item-img" src="img/batman-arkham-vr.png" width="261" height="150" alt="Batman: Arkham VR">
+						</a>
+						<a class="game-info" href="game.html">
+							Batman: Arkham VR
+							2017
+							Action, Фантакстика, Приключения
+						</a>
 					</div>
 					<div class="list-item">
-						<img src="img/the-climb.png" width="261" height="150" alt="Batman: Arkham VR">
+						<img class="list-item-img" src="img/the-climb.png" width="261" height="150" alt="Batman: Arkham VR">
 						<div class="game-info">
 							<p class="club-title">
 								Нереальное место
 							</p>
 							<p>
 								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
+									2015<br>
+									Action, Фантакстика, Приключения<br>
 								</span>
 							</p>
 							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
@@ -96,15 +168,15 @@
 						</div>
 					</div>
 					<div class="list-item">
-						<img src="img/skyrim.png" width="261" height="150" alt="Batman: Arkham VR">
+						<img class="list-item-img" src="img/skyrim.png" width="261" height="150" alt="Batman: Arkham VR">
 						<div class="game-info">
 							<p class="club-title">
 								Нереальное место
 							</p>
 							<p>
 								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
+									2018<br>
+									Action, Фантакстика, Приключения<br>
 								</span>
 							</p>
 							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
@@ -113,22 +185,22 @@
 						</div>
 					</div>
 					<div class="list-item">
-						<img src="img/beat-saber.png" width="261" height="150" alt="Batman: Arkham VR">
+						<img class="list-item-img" src="img/beat-saber.png" width="261" height="150" alt="Batman: Arkham VR">
 						<div class="game-info">
 							<p class="club-title">
 								Нереальное место
 							</p>
 							<p>
 								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
+									2017<br>
+									Action, Фантакстика, Приключения<br>
 								</span>
 							</p>
 							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
 							<a href="#">HTC Vive</a>
 							<a href="#">PS VR</a>
 						</div>
-					</div>
+					</div>-->
 				</div>
 				<div class="all-tags">
 					<ul class="tags popular-tags">
@@ -146,76 +218,67 @@
 			<section class="container best-clubs">
 				<h3>Лучшие клубы</h3>
 				<div class="club-list">
-					<div class="list-item">
-						<img src="img/unreal-place.png" width="261" height="150" alt="Batman: Arkham VR">
-						<div class="club-info">
-							<p class="club-title">
-								Нереальное место
-							</p>
-							<p>
-								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
-								</span>
-							</p>
-							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
-							<a href="#">HTC Vive</a>
-							<a href="#">PS VR</a>
-						</div>
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover club-cover" style="background-image: url('img/unreal-place.png');">
+							</div>
+							<div class="club-top">
+								<img src="img/price.jpg" title="Минимальная стоимость 1-го часа игры" alt="">
+							</div>
+							<div class="club-info">
+								<div class="profile-name">Нереальное место</div>
+								<div class="profile-row">м. Курская</div>
+								<div class="profile-row club-rating">Рейтинг:</div>
+							</div>
+						</a>
 						<button class="reserve-mini">ЗАБРОНИРОВАТЬ</button>
 					</div>
-					<div class="list-item">
-							<img src="img/anvio.png" width="261" height="150" alt="Batman: Arkham VR">
-						<div class="club-info">
-							<p class="club-title">
-								Нереальное место
-							</p>
-							<p>
-								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
-								</span>
-							</p>
-							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
-							<a href="#">HTC Vive</a>
-							<a href="#">PS VR</a>
-						</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/anvio.png');">
+							</div>
+							<div class="club-top">
+								<img src="img/price.jpg" title="Минимальная стоимость 1-го часа игры" alt="">
+							</div>
+							<div class="club-info">
+								<div class="profile-name">Anvio VR</div>
+								<div class="profile-row">м. Улица 1905 года</div>
+								<div class="profile-row club-rating">Рейтинг:</div>
+							</div>
+						</a>
 						<button class="reserve-mini">ЗАБРОНИРОВАТЬ</button>
 					</div>
-					<div class="list-item">
-						<img src="img/vr-go.png" width="261" height="150" alt="Batman: Arkham VR">
-						<div class="club-info">
-							<p class="club-title">
-								Нереальное место
-							</p>
-							<p>
-								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
-								</span>
-							</p>
-							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
-							<a href="#">HTC Vive</a>
-							<a href="#">PS VR</a>
-						</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/vr-go.png');">
+							</div>
+							<div class="club-top">
+								<img src="img/price.jpg" title="Минимальная стоимость 1-го часа игры" alt="">
+							</div>
+							<div class="club-info">
+								<div class="profile-name">VR-GO</div>
+								<div class="profile-row">м. Белорусская, Маяковская</div>
+								<div class="profile-row club-rating">Рейтинг:</div>
+							</div>
+						</a>
 						<button class="reserve-mini">ЗАБРОНИРОВАТЬ</button>
 					</div>
-					<div class="list-item">
-						<img src="img/another-world.png" width="261" height="150" alt="Batman: Arkham VR">
-						<div class="club-info">
-							<p class="club-title">
-								Нереальное место
-							</p>
-							<p>
-								<span class="club-address">
-									м. Курская<br>
-									Рейтинг<br>
-								</span>
-							</p>
-							<a href="#" title="Что такое Oculus Rift?">Oculus Rift CV1</a>
-							<a href="#">HTC Vive</a>
-							<a href="#">PS VR</a>
-						</div>
+					
+					<div class="profile-new">
+						<a href="#">
+							<div class="profile-cover" style="background-image: url('img/another-world.png');">
+							</div>
+							<div class="club-top">
+								<img src="img/price.jpg" title="Минимальная стоимость 1-го часа игры" alt="">
+							</div>
+							<div class="club-info">
+								<div class="profile-name">Another World</div>
+								<div class="profile-row">м. Савёловская</div>
+								<div class="profile-row club-rating">Рейтинг:</div>
+							</div>
+						</a>
 						<button class="reserve-mini">ЗАБРОНИРОВАТЬ</button>
 					</div>
 				</div>
@@ -236,48 +299,57 @@
 				<h3>Новости</h3>
 				<article class="news">
 					<h2 class="visually-hidden">Статья</h2>
-					<img src="img/news1.png" width="262" height="150" alt="Новость1">
-					<div class="news-content">
-						<p class="news-title">
-							BrainGate2 позволяет парализованным управлять планшетом
-						</p>
-						<p class="news-bait">
-							А в перспективе и не только.
-						</p>
-						<p class="news-date">
-							26.11.2018     14:26
-						</p>
-					</div>
+					<a href="#">
+						<img src="img/news1.png" width="262" height="150" alt="Новость1">
+						<div class="news-content">
+							<div class="news-title">
+								BrainGate2 позволяет парализованным управлять планшетом
+							</div>
+							<div class="news-bait">
+								А в перспективе и не только.
+							</div>
+							<div class="news-date">
+								<div>26.11.2018     14:26</div>
+								<div class="news-views" title="Количество просмотров">338</div>
+							</div>
+						</div>
+					</a>
 				</article>
 				<article class="news">
 					<h2 class="visually-hidden">Статья</h2>
-					<img src="img/news2.png" width="262" height="150" alt="Новость1">
-					<div class="news-content">
-						<p class="news-title">
-							Утечка указывает на разработку в Intel 10-ядерных процессоров
-						</p>
-						<p class="news-bait">
-							Они будут созданы по 14-нанометровой технологии
-						</p>
-						<p class="news-date">
-							26.11.2018     14:26
-						</p>
-					</div>
+					<a href="#">
+						<img src="img/news2.png" width="262" height="150" alt="Новость1">
+						<div class="news-content">
+							<div class="news-title">
+								Утечка указывает на разработку в Intel 10-ядерных процессоров
+							</div>
+							<div class="news-bait">
+								Они будут созданы по 14-нанометровой технологии
+							</div>
+							<div class="news-date">
+								<div>26.11.2018     14:26</div>
+								<div class="news-views" title="Количество просмотров">282</div>
+							</div>
+						</div>
+					</a>
 				</article>
 				<article class="news">
 					<h2 class="visually-hidden">Статья</h2>
-					<img src="img/news3.png" width="262" height="150" alt="Новость1">
-					<div class="news-content">
-						<p class="news-title">
-							Razer поведала первые подробности о клавиатуре и мыши для Xbox One
-						</p>
-						<p class="news-bait">
-							Клавиатура будет механической.
-						</p>
-						<p class="news-date">
-							26.11.2018     14:26
-						</p>
-					</div>
+					<a href="#">
+						<img src="img/news3.png" width="262" height="150" alt="Новость1">
+						<div class="news-content">
+							<div class="news-title">
+								Razer поведала первые подробности о клавиатуре и мыши для Xbox One
+							</div>
+							<div class="news-bait">
+								Клавиатура будет механической.
+							</div>
+							<div class="news-date">
+								<div>26.11.2018     14:26</div>
+								<div class="news-views" title="Количество просмотров">1054</div>
+							</div>
+						</div>
+					</a>
 				</article>
 				<ul class="tags">
 					<li><a href="#">Все новости</a></li>
@@ -290,6 +362,11 @@
 				<h2 class="visually-hidden">Общая информация</h2>
 				<ul class="social-list">
 					<li>Мы в социальных сетях:</li>
+					<li><a><img src="img/vk.png" title="Вконтакте" alt=""></a></li>
+					<li><a><img src="img/facebook.png" title="Facebook" alt=""></a></li>
+					<li><a><img src="img/twitter.png" title="Twitter" alt=""></a></li>
+					<li><a><img src="img/ok.png" title="Одноклассники" alt=""></a></li>
+					<li><a><img src="img/google.png" title="Google+" alt=""></a></li>
 				</ul>
 				<hr class="footer-line">
 				
